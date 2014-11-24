@@ -8,7 +8,7 @@ public class ArrayTest {
 		System.out.println("Init array");
 		int j = 0;
 		for (int i = 0; i < arr.length; i++) {
-			arr[i] = 100 + j;
+			arr[i] = 100 + j++;
 		}
 		
 		//print 
